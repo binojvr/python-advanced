@@ -13,8 +13,8 @@ def quiet(text):
     return text.lower()
 
 
-def hello(fcn):
-    text = fcn("Hello")
+def hello(fnc):
+    text = fnc("Hello")
     print(text)
 
 
@@ -32,3 +32,5 @@ def divisor(x):
 
 divide = divisor(2)
 print(divide(10))
+
+
